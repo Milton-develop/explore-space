@@ -1,0 +1,38 @@
+body{
+    background-image: url(Universe.jpeg.jpg);
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#logo{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 10vh;          /* Takes viewport height */
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.personal{
+    color: rgb(177, 154, 154);
+    text-align: center;
+    font-size: 30px;
+}
+.name{
+    color: white;
+}
+.message{
+    width: 50%;
+    height: 150px;
+    font-family: arial;
+    font-size: 15px;
+}
+h3{
+    color: white;
+}
+.motto{
+    padding-top: 20px;
+    text-shadow: 3px 3px 3px rgb(210, 175, 175);
+    transition: 5s;
+}

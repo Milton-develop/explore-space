@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPACE EXPLORATION FORM</title>
+        <link rel="stylesheet" href="exploration-form.css">
+    </head>
+    <body>
+        <div id="logo">
+        <img src="logo.png" alt="Logo">
+        </div>
+        <div class="motto">
+            <h1>Reach for the stars, explore beyond limits!!!</h1>
+         </div>
+        <div class="form">
+        <fieldset>
+            <legend style="text-align: center;"><h1>FILL TO JOIN THE EXPLORATION</h1></legend>
+            </fieldset>
+            <fieldset>
+                <legend class="personal">Personal Information</legend>
+                <p>
+                    <label class="name">First Name</label>
+          <input type="text" placeholder="Firstname">
+               </p>
+                <p>
+                    <label class="name">Last Name</label>
+          <input type="text" placeholder="Lastname">
+               </p>
+                <p>
+                    <label class="name">Date of Birth</label>
+          <input type="date">
+               </p>
+                <p>
+                    <label class="name">Gender</label>
+          <input type="text" placeholder="Male or Female">
+               </p>
+                <p>
+                    <label class="name">Nationality</label>
+          <input type="text" placeholder="Ghanaian">
+               </p>
+        </fieldset>
+        <fieldset>
+            <legend class="personal">Educational Background</legend>
+            <p>
+                <label class="name">Highest Level of Education</label>
+                <input type="text" placeholder="Degree">
+            </p>
+            <p>
+                <label class="name">Field Of Study</label>
+                <input type="text" placeholder="Physics">
+            </p>
+            <p>
+                <label class="name">Institution Name</label>
+                <input type="text" placeholder="Harvard University">
+            </p>
+            <p>
+                <label class="name">Graduation Date(unless graduated)</label>
+                <input type="date">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend class="personal">Medical Information</legend>
+            <p>
+                <label class="name">Height</label>
+                <input type="text" placeholder="170cm">
+            </p>
+            <p>
+                <label class="name">Weight</label>
+                <input type="text" placeholder="70kg">
+            </p>
+            <p>
+                <label class="name">Any Medical Conditions?</label>
+                <br>
+                <textarea class="message" placeholder="If none just state so otherwise list them"></textarea>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend class="personal">Emergency Contact</legend>
+            <p>
+                <label class="name">Contact Name</label>
+                <input type="text" placeholder="Full Name">
+            </p>
+            <p>
+                <label class="name">Relationship to Applicant</label>
+                <input type="text" placeholder="Spouse, Child, etc">
+            </p>
+            <p>
+                <label class="name">Phone Number</label>
+                <input type="text" placeholder="Contact">
+            </p>
+            <p>
+                <label class="name">Contact Email</label>
+                <input type="email" placeholder="www.jess24@gmail.com">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend class="personal">Important</legend>
+            <p>
+                <label class="name" style="text-decoration: underline;">Interested Experiences</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">View from Space</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">Floating in Zero Gravity</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">Learning About Space Technology</label>
+            </p>
+            <p>
+              <label class="name" style="text-decoration: underline;">Safety</label>
+            </p>
+            <p>
+                <label class="name">Would you be willing to undergo training on safety procedures and emergency protocols?</label>
+            </p>    
+            <p>
+                <input type="radio">
+                <label class="name">Yes, I really need it to ensure my safety</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">No, I already have enough knowledge on that</label>
+            </p>    
+            <p>
+                <label class="name">Will you be available for all training sessions?</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">Yes, I will be available at all times</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">No, my work schedule wouldn't permit me</label>
+            </p>
+            <p>
+                <label class="name">Do you agree to all the terms and conditions?</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">Yes, I do</label>
+            </p>
+            <p>
+                <input type="radio">
+                <label class="name">No, I want further explanation</label>
+            </p>
+            <br>
+            <p>
+            <button type="button" onclick="clearSelection()">Clear Selection</button>
+            </p>
+        </fieldset>
+    </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset Form">
+        <script src="exploration-form.js"></script>
+        </body>
+</html>
